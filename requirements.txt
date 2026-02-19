@@ -1,0 +1,9 @@
+pandas
+numpy
+xgboost
+holidays
+google-cloud-bigquery
+db-dtypes
+scikit-learn
+category-encoders
+pyarrow
