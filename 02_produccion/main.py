@@ -11,7 +11,6 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # CONFIGURACIÓN
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "credentials.json"
 PROJECT_ID = "automatizacion-boxnox"
 DATASET_ID = "predicciones_diptyque"
 
@@ -146,4 +145,5 @@ def pipeline_prediccion():
         print(f"ERROR: {e}")
 
 if __name__ == "__main__":
+
     pipeline_prediccion()
